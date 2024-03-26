@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+}
+
+.slider {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.slide img {
+  width: 80%;
+  height: auto;
+}
+
+.slideShow {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  /* background-color: black; */
+}
+
+.slideShowImageMargin {
+  margin-left: 10px;
+}
+
+.slideShowImage2 {
+  margin-right: 10px;
+}
+
+.leftArrow {
+  width: 20%;
+  align-items: center;
+  display: flex;
+  margin-right: 5%;
+}
+.rightArrow {
+  width: 20%;
+  align-items: center;
+  display: flex;
+  margin-left: 5%;
+}
+
+.dots-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.transparentDot {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.playIconContainer {
+  margin: 0 5px;
+  position: absolute;
+  bottom: 130px;
+  left: 1px;
+}
+
+.zoomIconContainer {
+  margin: 0 5px;
+  position: absolute;
+  bottom: 130px;
+  right: 10px;
+}
+
+.slideShowImage img.selected {
+  border: solid 5px #347ab7;
+  margin-left: 10px;
+}
